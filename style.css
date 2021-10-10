@@ -1,0 +1,153 @@
+head {
+    text-align: center;
+}
+
+
+
+body {
+    text-align: center;
+    background-image: linear-gradient(to bottom right, #4bc1cc, #3a5ec2);
+}
+
+
+h1 {
+    text-shadow: 2px 2px #09825a;
+    font-size: 25px;
+    font-family: 'Zen Tokyo Zoo', cursive;
+}
+
+p {
+    font-family: Sans-Serif;
+}
+
+#img {
+    width: 200px;
+    height: 100px;
+    border-radius: 10%
+}
+
+#img2 {
+    width: 205px;
+    height: 100px;
+    border-radius: 10%
+}
+
+.menu {
+    list-style: none;
+    font-family: cursive;
+    float: center;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+    color: black;
+    display: inline-block;
+}
+
+li {
+    display: inline;
+    border-spacing: inherit;
+    margin-right: 8px;
+}
+
+li:hover {
+    background-color: grey;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#app {
+    width: 100%;
+    height: 600px;
+    background-color: darkblue;
+
+}
+
+.line {
+    height: 6px;
+    background-color: slategrey;
+    width: 70px;
+    margin: 8px auto;
+}
+
+#game {
+    width=50%;
+    height: 200px;
+    background-color: chartreuse;
+}
+
+img {
+    transition: transform .2s;
+}
+
+img:hover {
+    transform: scale(0.5);
+}
+
+#chatbot {
+    width=200%;
+    height=350px;
+    background-color: chocolate;
+}
+
+#Contacts {
+    background-color: darkturquoise;
+}
+
+#Inspiration {
+    background-color: aquamarine;
+}
+
+#SongsIKnow {
+    background-color: cornflowerblue;
+}
+
+#MyFavoritePieces {
+    background-color: cadetblue;
+}
+
+#About {
+    background-color: #4287f5;
+}
+
+#piano: hover{
+transform: scale(.9)
+}
+
+#piano{
+width: 350px;
+height: 400px;
+}
+
+.#NB{
+    font-family: "Hawaii" 5-0, sans-serif
+}
+
+.link{
+    float: left;
+    color: grey;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
+}
+
+.main{
+  margin-top: 30px;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  background-color: grey;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
